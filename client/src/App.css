@@ -1,0 +1,123 @@
+.log-back {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../src/img/1.jpg');
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.log-sub-title {
+    text-align: center;
+    color: #f8f6f6;
+}
+
+.log-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.first-title {
+    color: #f8f6f6;
+    font-weight: 700;
+}
+
+.first-title-page {
+
+    margin-bottom: 50px;
+    color: #3c404e;
+    font-weight: 700;
+}
+
+.log-input {
+    margin: 10px;
+    width: 300px;
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+input {
+    font-weight: 500;
+    padding: 4px 20px;
+}
+
+.btn-log {
+    margin: 30px;
+    width: 300px;
+    height: 50px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    background: #e9ecee;
+}
+
+.btn-log:hover {
+    background: #e0e4e7;
+}
+
+.user-page {
+    margin-top: 100px;
+    width: 1200px;
+}
+
+.table {
+    box-shadow: -1px 2px 3px 2px rgb(233, 236, 238)
+}
+
+.form-submit {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -1px 2px 3px 2px rgb(233, 236, 238)
+}
+
+.form-submit input {
+    margin: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background: #e9eef3;
+}
+
+.form-submit p {
+    font-weight: 700;
+    padding-top: 26px;
+    margin-bottom: 0;
+}
+
+.btn-form {
+    margin: 30px;
+    width: 180px;
+    height: 50px;
+    color: #f8f8f8;
+    font-weight: 500;
+    background: #0288e8;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn-form:hover {
+    background: #047cd4;
+}
+
+.search {
+    padding: 10px 30px;
+    height: 50px;
+    width: 320px;
+    font-size: 14px !important;
+    font-weight: 700;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    background-image: url('../src/img/search.png');
+    background-repeat: no-repeat;
+    background-position: 274px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: -1px 2px 3px 2px rgb(233, 236, 238)
+}
