@@ -58,7 +58,7 @@ function UserPage() {
   const [items, setItems] = useState([]);
   useEffect(() => {
     (async () => {
-      const list = await fetch("http://localhost:3000/list");
+      const list = await fetch("https://flight-wdt6.onrender.com:1000/list");
       const data = await list.json();
       setItems(data);
     })();
