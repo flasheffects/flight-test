@@ -18,7 +18,7 @@ function LoginPage() {
   const AuthCheck = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://flight-4y2q.onrender.com:10000/auth", {
+      const response = await fetch("https://flights-2iu9.onrender.com:10000/auth", {
         method: "POST",
         body: JSON.stringify({
           user: userValue,
