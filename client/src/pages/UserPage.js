@@ -34,7 +34,7 @@ function UserPage() {
 
   const postFlight = async (e) => {
     try {
-      const response = await fetch("http://localhost:3000/list", {
+      const response = await fetch("https://flight-wdt6.onrender.com:1000/list", {
         method: "POST",
         body: JSON.stringify({
           from: fromValue,
