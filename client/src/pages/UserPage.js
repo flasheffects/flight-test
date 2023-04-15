@@ -34,7 +34,7 @@ function UserPage() {
 
   const postFlight = async (e) => {
     try {
-      const response = await fetch("https://flights-2iu9.onrender.com:10000/list", {
+      const response = await fetch("https://flights-2iu9.onrender.com/list", {
         method: "POST",
         body: JSON.stringify({
           from: fromValue,
@@ -58,7 +58,7 @@ function UserPage() {
   const [items, setItems] = useState([]);
   useEffect(() => {
     (async () => {
-      const list = await fetch("https://flights-2iu9.onrender.com:10000/list");
+      const list = await fetch("https://flights-2iu9.onrender.com/list");
       const data = await list.json();
       setItems(data);
     })();
